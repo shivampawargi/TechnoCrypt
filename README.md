@@ -38,16 +38,27 @@ Steps for Running on Linux terminal :
 The order of arguments is flexible so long as you follow the below convention.
 
   First argument has to be : ./a.out 
+  
   Input file name is necessary. Filename should be followed immediately after -i 
+  
   -e or -d should be specified.
+  
   -e : for encryption
+  
   -d : for decryption
+  
   If -e given :
-     Encryption algorithm needs to be specified. 
-     Algorithm can be chosen from : alfa / beta / gama / tita / dlta . Algorithm name should be immediately followed after -algo .
+  
+   Encryption algorithm needs to be specified. 
+     
+   Algorithm can be chosen from : alfa / beta / gama / tita / dlta . Algorithm name should be immediately followed after -algo .
+   
   If -d given :
-     No need to give output file name.
-     Output file name (if specified) should be specified immediately after -o
+  
+   No need to give output file name.
+   
+   Output file name (if specified) should be specified immediately after -o
+   
   If no output filename specified, the resultant outputfile will be saved as technoOut.txt
   
   -------------------------------------------------------------------------------------------------------
